@@ -10,8 +10,6 @@ use App\Http\Resources\TypeResource;
 use App\Models\Ability;
 use App\Models\Pokemon;
 use App\Models\Type;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Validator;
 
 class PokemonController extends Controller
 {
@@ -91,52 +89,39 @@ class PokemonController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, $id)
+    public function update(PokemonRequest $request, $id)
     {
         try {
-            $validator = Validator::make($request->all(), [
-                'Name' => 'required|string',
-                'Picture' => 'url',
-                'Types_name' => 'required|array',
-                'Types_name.*' => 'string',
-            ]);
-        
-            // Return validation errors if any
-            if ($validator->fails()) {
-                return response()->json(['errors' => $validator->errors()], 400);
-            }
-        
         
             $pokemon = Pokemon::findOrFail($id);
+
+            if(!$pokemon) return response()->json(['error' => 'Pokemon not found'], 404);
+
+            $validatedData = $request->validated();
         
-            $pokemon->update($request->only(['Name', 'Picture']));
-        
+            $pokemon->update($request->only($validatedData));
+    
             $experiencedata = $request->input('Base_experience');
             $experience = $pokemon->experiences()->updateOrCreate(['Base_experience' => $experiencedata]);
-
+        
             $abilityData = [];
             foreach ($request->input('Ability_name') as $abilityName) {
                 $ability = $pokemon->abilities()->updateOrCreate(['Ability_name' => $abilityName]);
                 $abilityData[] = $ability;
             }
-
-
+            
             $typedata = [];
             foreach ($request->input('Types_name') as $typeName) {
                 $type = $pokemon->types()->updateOrCreate(['Type_name' => $typeName]);
                 $typedata[] = $type;
             }
-
             
-        
-            // Return the updated Pokemon and Type data
             return response()->json([
                 'pokemon' => new PokemonResource($pokemon),
                 'types' => TypeResource::collection($typedata),
                 'abilities' => AbilityResource::collection($abilityData),
                 'experiences' => ExperienceResource::make($experience)
             ]);
-
         } catch (\Throwable $th) {
             echo('error your'. $th->getMessage());
             response()->json(["Internal Server Error", $th->getMessage()], 500);
@@ -162,3 +147,7 @@ class PokemonController extends Controller
     
     }
 }
+
+
+
+

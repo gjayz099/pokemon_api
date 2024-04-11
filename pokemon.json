@@ -1,0 +1,584 @@
+[
+    {
+        "Name" : "Bulbasaur",
+        "Picture" : "https://img.pokemondb.net/artwork/large/bulbasaur.jpg",
+        "Types_name": ["Poison", "Grass"],
+        "Ability_name" : ["Overgrow", "Chlorophyll"],
+        "Base_experience" : 64
+    },
+    
+    {
+        "Name" : "Ivysaur",
+        "Picture" : "https://img.pokemondb.net/artwork/large/ivysaur.jpg",
+        "Types_name": ["Poison", "Grass"],
+        "Ability_name" : ["Overgrow", "Chlorophyll"],
+        "Base_experience" : 142
+    },
+    
+    
+    {
+        "Name" : "Venusaur",
+        "Picture" : "https://img.pokemondb.net/artwork/large/venusaur.jpg",
+        "Types_name": ["Poison", "Grass"],
+        "Ability_name" : ["Overgrow", "Chlorophyll"],
+        "Base_experience" : 263
+    },
+        
+    {
+        "Name" : "Charmander",
+        "Picture" : "https://img.pokemondb.net/artwork/large/charmander.jpg",
+        "Types_name": ["Fire"],
+        "Ability_name" : ["Blaze", "Solar-power"],
+        "Base_experience" : 62
+    },
+
+
+    {
+        "Name" : "Charmeleon",
+        "Picture" : "https://img.pokemondb.net/artwork/large/charmeleon.jpg",
+        "Types_name": ["Fire"],
+        "Ability_name" : ["Blaze", "Solar-power"],
+        "Base_experience" : 142
+    },
+
+    {
+        "Name" : "charizard",
+        "Picture" : "https://img.pokemondb.net/artwork/large/charizard.jpg",
+        "Types_name": ["Fire"],
+        "Ability_name" : ["Blaze", "Solar-power"],
+        "Base_experience" : 267
+    },
+
+
+    {
+        "Name" : "Squirtle",
+        "Picture" : "https://img.pokemondb.net/artwork/large/squirtle.jpg",
+        "Types_name": ["Water"],
+        "Ability_name" : ["Rain-dish", "Torrent"],
+        "Base_experience" : 63
+    },
+
+    {
+        "Name" : "Wartortle",
+        "Picture" : "https://img.pokemondb.net/artwork/large/wartortle.jpg",
+        "Types_name": ["Water"],
+        "Ability_name" : ["Rain-dish", "Torrent"],
+        "Base_experience" : 142
+    },
+    
+    {
+        "Name" : "Blastoise",
+        "Picture" : "https://img.pokemondb.net/artwork/large/blastoise.jpg",
+        "Types_name": ["Water"],
+        "Ability_name" : ["Rain-dish", "Torrent"],
+        "Base_experience" : 265
+    },
+        
+    {
+        "Name" : "Caterpie",
+        "Picture" : "https://img.pokemondb.net/artwork/large/caterpie.jpg",
+        "Types_name": ["Bug"],
+        "Ability_name" : ["Shield-dust", "Run-away"],
+        "Base_experience" : 39
+    },
+    {
+        "Name" : "Metapod",
+        "Picture" : "https://img.pokemondb.net/artwork/large/metapod.jpg",
+        "Types_name": ["Bug"],
+        "Ability_name" : ["Shield-dust", "Run-away"],
+        "Base_experience" : 72
+    },
+
+    {
+        "Name" : "Butterfree",
+        "Picture" : "https://img.pokemondb.net/artwork/large/butterfree.jpg",
+        "Types_name": ["Bug", "Fly"],
+        "Ability_name" : ["Tinted-lens", "Compound-eyes"],
+        "Base_experience" : 198
+    },
+
+    {
+        "Name" : "Weedle",
+        "Picture" : "https://img.pokemondb.net/artwork/large/weedle.jpg",
+        "Types_name": ["Bug", "Poison"],
+        "Ability_name" : ["Shield-dust", "Run-away"],
+        "Base_experience" : 39
+    },
+
+    
+    {
+        "Name" : "Kakuna",
+        "Picture" : "https://img.pokemondb.net/artwork/large/kakuna.jpg",
+        "Types_name": ["Bug", "Poison"],
+        "Ability_name" : ["Shield-dust", "Run-away"],
+        "Base_experience" :  72
+    },
+    {
+        "Name" : "Beedrill",
+        "Picture" : "https://img.pokemondb.net/artwork/large/beedrill.jpg",
+        "Types_name": ["Bug", "Poison"],
+        "Ability_name" : ["Swarm", "Sniper"],
+        "Base_experience" : 198
+    },
+    {
+        "Name" : "Pidgey",
+        "Picture" : "https://img.pokemondb.net/artwork/large/pidgey.jpg",
+        "Types_name": ["Narmal", "Flying"],
+        "Ability_name" : ["Big-pecks", "Tangled-feet", "keen-eye"],
+        "Base_experience" : 50
+    },
+    {
+        "Name" : "Pidgeotto",
+        "Picture" : "https://img.pokemondb.net/artwork/large/pidgeotto.jpg",
+        "Types_name": ["Narmal", "Flying"],
+        "Ability_name" : ["Big-pecks", "Tangled-feet", "keen-eye"],
+        "Base_experience" : 122
+    },
+    {
+        "Name" : "Pidgeot",
+        "Picture" : "https://img.pokemondb.net/artwork/large/pidgeot.jpg",
+        "Types_name": ["Narmal", "Flying"],
+        "Ability_name" : ["Big-pecks", "Tangled-feet", "keen-eye"],
+        "Base_experience" : 216
+    },
+
+    {
+        "Name" : "Rattata",
+        "Picture" : "https://img.pokemondb.net/artwork/large/rattata.jpg",
+        "Types_name": ["Narmal"],
+        "Ability_name" : ["Hustle", "Guts", "Run-away"],
+        "Base_experience" : 51
+    },
+    {
+        "Name" : "Raticate",
+        "Picture" : "https://img.pokemondb.net/artwork/large/raticate.jpg",
+        "Types_name": ["Narmal"],
+        "Ability_name" : ["Hustle", "Guts", "Run-away"],
+        "Base_experience" : 145
+    },
+    {
+        "Name" : "Raticate",
+        "Picture" : "https://img.pokemondb.net/artwork/large/raticate.jpg",
+        "Types_name": ["Narmal"],
+        "Ability_name" : ["Hustle", "Guts", "Run-away"],
+        "Base_experience" : 145
+    },
+    {
+        "Name" : "Spearow",
+        "Picture" : "https://img.pokemondb.net/artwork/large/spearow.jpg",
+        "Types_name": ["Narmal", "Fly"],
+        "Ability_name" : ["sniper", "Keen-eye"],
+        "Base_experience" : 52
+    },
+    {
+        "Name" : "Fearow",
+        "Picture" : "https://img.pokemondb.net/artwork/large/fearow.jpg",
+        "Types_name": ["Narmal", "Fly"],
+        "Ability_name" : ["sniper", "Keen-eye"],
+        "Base_experience" : 155
+    },
+    {
+        "Name" : "Ekans",
+        "Picture" : "https://img.pokemondb.net/artwork/large/ekans.jpg",
+        "Types_name": ["Poison"],
+        "Ability_name" : ["Intimidate", "Shed-skin", "Unnerve"],
+        "Base_experience" : 58
+    },
+    {
+        "Name" : "Arbok",
+        "Picture" : "https://img.pokemondb.net/artwork/large/arbok.jpg",
+        "Types_name": ["Poison"],
+        "Ability_name" : ["Intimidate", "Shed-skin", "Unnerve"],
+        "Base_experience" : 157
+    },
+    {
+        "Name" : "Pikachu",
+        "Picture" : "https://img.pokemondb.net/artwork/large/pikachu.jpg",
+        "Types_name": ["Electric"],
+        "Ability_name" : ["Lightning-rod", "Static"],
+        "Base_experience" : 112
+    },
+    {
+        "Name" : "Raichu",
+        "Picture" : "https://img.pokemondb.net/artwork/large/raichu.jpg",
+        "Types_name": ["Electric"],
+        "Ability_name" : ["Lightning-rod", "static"],
+        "Base_experience" : 243
+    },
+
+    {
+        "Name" : "Sandshrew",
+        "Picture" : "https://img.pokemondb.net/artwork/large/sandshrew.jpg",
+        "Types_name": ["Ground"],
+        "Ability_name" : ["Sand-rush", "Sand-veil"],
+        "Base_experience" : 52
+    },
+    {
+        "Name" : "Sandslash",
+        "Picture" : "https://img.pokemondb.net/artwork/large/sandslash.jpg",
+        "Types_name": ["Ground"],
+        "Ability_name" : ["Sand-rush", "Sand-veil"],
+        "Base_experience" : 180
+    },
+
+    {
+        "Name" : "Nidoran-f",
+        "Picture" : "https://img.pokemondb.net/artwork/large/nidoran-f.jpg",
+        "Types_name": ["Poison"],
+        "Ability_name" : ["Hustle", "Rivalry", "Poison-point"],
+        "Base_experience" : 52
+    },
+
+
+    {
+        "Name" : "Nidorina",
+        "Picture" : "https://img.pokemondb.net/artwork/large/nidorina.jpg",
+        "Types_name": ["Poison"],
+        "Ability_name" : ["hustle", "Rivalry", "Poison-point"],
+        "Base_experience" : 128
+    },
+
+
+    {
+        "Name" : "Nidoqueen",
+        "Picture" : "https://img.pokemondb.net/artwork/large/nidoqueen.jpg",
+        "Types_name": ["Poison", "Ground"],
+        "Ability_name" : ["Sheer-force", "Rivalry", "Poison-point"],
+        "Base_experience" : 250
+    },
+
+    {
+        "Name" : "Nidoran-m",
+        "Picture" : "https://img.pokemondb.net/artwork/large/nidoran-m.jpg",
+        "Types_name": ["Poison"],
+        "Ability_name" : ["Hustle", "Rivalry", "Poison-point"],
+        "Base_experience" : 52
+    },
+    {
+        "Name" : "Nidorino",
+        "Picture" : "https://img.pokemondb.net/artwork/large/nidorino.jpg",
+        "Types_name": ["Poison"],
+        "Ability_name" : ["Hustle", "Rivalry", "Poison-point"],
+        "Base_experience" : 128
+    },
+
+    {
+        "Name" : "Nidoking",
+        "Picture" : "https://img.pokemondb.net/artwork/large/nidoking.jpg",
+        "Types_name": ["Poison", "Ground"],
+        "Ability_name" : ["Sheer-force", "Rivalry", "Poison-point"],
+        "Base_experience" : 250
+    },
+
+
+    {
+        "Name" : "Clefairy",
+        "Picture" : "https://img.pokemondb.net/artwork/large/clefairy.jpg",
+        "Types_name": ["Fairy"],
+        "Ability_name" : ["Cute-charm", "Magic-guard", "Friend-guard"],
+        "Base_experience" : 113
+    },
+    
+    {
+        "Name" : "Clefable",
+        "Picture" : "https://img.pokemondb.net/artwork/large/clefable.jpg",
+        "Types_name": ["Fairy"],
+        "Ability_name" : ["Cute-charm", "Magic-guard", "Unaware"],
+        "Base_experience" : 242
+    },
+
+    {
+        "Name" : "Vulpix",
+        "Picture" : "https://img.pokemondb.net/artwork/large/vulpix.jpg",
+        "Types_name": ["Fire"],
+        "Ability_name" : ["Flash-fire", "Drought"],
+        "Base_experience" : 60
+    },
+    {
+        "Name" : "Ninetales",
+        "Picture" : "https://img.pokemondb.net/artwork/large/ninetales.jpg",
+        "Types_name": ["Fire"],
+        "Ability_name" : ["Flash-fire", "Drought"],
+        "Base_experience" : 177
+    },
+    {
+        "Name" : "Jigglypuff",
+        "Picture" : "https://img.pokemondb.net/artwork/large/jigglypuff.jpg",
+        "Types_name": ["Fairy", "Narmal"],
+        "Ability_name" : ["cute-charm", "competitive", "friend-guard"],
+        "Base_experience" : 95
+    },
+    {
+        "Name" : "Wigglytuff",
+        "Picture" : "https://img.pokemondb.net/artwork/large/wigglytuff.jpg",
+        "Types_name": ["Fairy", "Narmal"],
+        "Ability_name" : ["cute-charm", "competitive", "Frisk"],
+        "Base_experience" : 218
+    },
+    {
+        "Name" : "Zubat",
+        "Picture" : "https://img.pokemondb.net/artwork/large/zubat.jpg",
+        "Types_name": ["Poison", "Fly"],
+        "Ability_name" : ["Inner-focus", "Infiltrator"],
+        "Base_experience" : 49
+    },
+    {
+        "Name" : "Golbat",
+        "Picture" : "https://img.pokemondb.net/artwork/large/golbat.jpg",
+        "Types_name": ["Poison", "Fly"],
+        "Ability_name" : ["Inner-focus", "Infiltrator"],
+        "Base_experience" : 49
+    },
+
+    {
+        "Name" : "Oddish",
+        "Picture" : "https://img.pokemondb.net/artwork/large/oddish.jpg",
+        "Types_name": ["Poison", "Grass"],
+        "Ability_name" : ["Run-away", "Chlorophyll"],
+        "Base_experience" : 49
+    },
+    {
+        "Name" : "Gloom",
+        "Picture" : "https://img.pokemondb.net/artwork/large/gloom.jpg",
+        "Types_name": ["Poison", "Grass"],
+        "Ability_name" : ["Stench", "Chlorophyll"],
+        "Base_experience" : 138
+    },
+
+    {
+        "Name" : "Vileplume",
+        "Picture" : "https://img.pokemondb.net/artwork/large/vileplume.jpg",
+        "Types_name": ["Poison", "Grass"],
+        "Ability_name" : ["Effect-spore", "Chlorophyll"],
+        "Base_experience" : 245
+    },
+    {
+        "Name" : "Paras",
+        "Picture" : "https://img.pokemondb.net/artwork/large/paras.jpg",
+        "Types_name": ["Bug", "Grass"],
+        "Ability_name" : ["Effect-spore", "Dry-skin", "Damp"],
+        "Base_experience" : 57
+    },
+    {
+        "Name" : "Parasect",
+        "Picture" : "https://img.pokemondb.net/artwork/large/parasect.jpg",
+        "Types_name": ["Bug", "Grass"],
+        "Ability_name" : ["Effect-spore", "Dry-skin", "Damp"],
+        "Base_experience" : 142
+    },
+    {
+        "Name" : "Venonat",
+        "Picture" : "https://img.pokemondb.net/artwork/large/venonat.jpg",
+        "Types_name": ["Bug", "Poison"],
+        "Ability_name" : ["Compound-eyes", "Tinted-lens", "Run-away"],
+        "Base_experience" : 61
+    },
+    {
+        "Name" : "Venomoth",
+        "Picture" : "https://img.pokemondb.net/artwork/large/venomoth.jpg",
+        "Types_name": ["Bug", "Poison"],
+        "Ability_name" : ["Shield-dust", "Tinted-lens", "Wonder-skin"],
+        "Base_experience" : 158
+    },
+
+    {
+        "Name" : "Diglett",
+        "Picture" : "https://img.pokemondb.net/artwork/large/diglett.jpg",
+        "Types_name": ["Ground"],
+        "Ability_name" : ["Sand-veil", "Arena-trap", "Sand-force"],
+        "Base_experience" : 53
+    },
+    {
+        "Name" : "Dugtrio",
+        "Picture" : "https://img.pokemondb.net/artwork/large/dugtrio.jpg",
+        "Types_name": ["Ground"],
+        "Ability_name" : ["Sand-veil", "Ability", "Sand-force"],
+        "Base_experience" : 149
+    },
+    {
+        "Name" : "Meowth",
+        "Picture" : "https://img.pokemondb.net/artwork/large/meowth.jpg",
+        "Types_name": ["Narmal"],
+        "Ability_name" : ["Pickup", "Technician", "Unnerve"],
+        "Base_experience" : 75
+    },
+    {
+        "Name" : "Persian",
+        "Picture" : "https://img.pokemondb.net/artwork/large/persian.jpg",
+        "Types_name": ["Narmal"],
+        "Ability_name" : ["Limber", "Technician", "Unnerve"],
+        "Base_experience" : 152
+    },
+    {
+        "Name" : "Psyduck",
+        "Picture" : "https://img.pokemondb.net/artwork/large/psyduck.jpg",
+        "Types_name": ["Narmal"],
+        "Ability_name" : ["Damp", "Cloud-nine", "Swift-swim"],
+        "Base_experience" : 64
+    },
+
+    {
+        "Name" : "Golduck",
+        "Picture" : "https://img.pokemondb.net/artwork/large/golduck.jpg",
+        "Types_name": ["Narmal"],
+        "Ability_name" : ["Damp", "Cloud-nine", "Swift-swim"],
+        "Base_experience" : 175
+    },
+
+    {
+        "Name" : "Mankey",
+        "Picture" : "https://img.pokemondb.net/artwork/large/mankey.jpg",
+        "Types_name": ["Fighting"],
+        "Ability_name" : ["Anger-point", "Vital-spirit", "Defiant"],
+        "Base_experience" : 61
+    },
+    
+    {
+        "Name" : "Primeape",
+        "Picture" : "https://img.pokemondb.net/artwork/large/primeape.jpg",
+        "Types_name": ["Fighting"],
+        "Ability_name" : ["Anger-point", "Anger-point", "Defiant"],
+        "Base_experience" : 159
+    },
+    {
+        "Name" : "Growlithe",
+        "Picture" : "https://img.pokemondb.net/artwork/large/growlithe.jpg",
+        "Types_name": ["Fire"],
+        "Ability_name" : ["Intimidate", "Flash-fire", "Justified"],
+        "Base_experience" : 70
+    },
+    {
+        "Name" : "Arcanine",
+        "Picture" : "https://img.pokemondb.net/artwork/large/arcanine.jpg",
+        "Types_name": ["Fire"],
+        "Ability_name" : ["Intimidate", "Flash-fire", "justified"],
+        "Base_experience" : 192
+    },
+    {
+        "Name" : "Poliwag",
+        "Picture" : "https://img.pokemondb.net/artwork/large/poliwag.jpg",
+        "Types_name": ["Water"],
+        "Ability_name" : ["Water-absorb", "Damp", "Swift-swim"],
+        "Base_experience" : 60
+    },
+    {
+        "Name" : "Poliwhirl",
+        "Picture" : "https://img.pokemondb.net/artwork/large/poliwhirl.jpg",
+        "Types_name": ["Water"],
+        "Ability_name" : ["Water-absorb", "Damp", "Swift-swim"],
+        "Base_experience" : 135
+    },
+    {
+        "Name" : "Poliwrath",
+        "Picture" : "https://img.pokemondb.net/artwork/large/poliwrath.jpg",
+        "Types_name": ["Water"],
+        "Ability_name" : ["Water-absorb", "Damp", "Swift-swim"],
+        "Base_experience" : 255
+    },
+
+    {
+        "Name" : "Abra",
+        "Picture" : "https://img.pokemondb.net/artwork/large/abra.jpg",
+        "Types_name": ["Psyschic"],
+        "Ability_name" : ["Synchronize", "Inner-focus", "Magic-guard"],
+        "Base_experience" : 62
+    },
+    
+    {
+        "Name" : "kadabra",
+        "Picture" : "https://img.pokemondb.net/artwork/large/kadabra.jpg",
+        "Types_name": ["Psyschic"],
+        "Ability_name" : ["Synchronize", "Inner-focus", "Magic-guard"],
+        "Base_experience" : 140
+    },
+    {
+        "Name" : "Alakazam",
+        "Picture" : "https://img.pokemondb.net/artwork/large/Alakazam.jpg",
+        "Types_name": ["Psyschic"],
+        "Ability_name" : ["Synchronize", "Inner-focus", "Magic-guard"],
+        "Base_experience" : 250
+    },
+
+    {
+        "Name" : "Machop",
+        "Picture" : "https://img.pokemondb.net/artwork/large/machop.jpg",
+        "Types_name": ["Fighting"],
+        "Ability_name" : ["Guts", "No-guard", "Steadfast"],
+        "Base_experience" : 61
+    },
+    {
+        "Name" : "Machoke",
+        "Picture" : "https://img.pokemondb.net/artwork/large/machoke.jpg",
+        "Types_name": ["Fighting"],
+        "Ability_name" : ["Guts", "No-guard", "Steadfast"],
+        "Base_experience" : 140
+    },
+    {
+        "Name" : "Machamp",
+        "Picture" : "https://img.pokemondb.net/artwork/large/machamp.jpg",
+        "Types_name": ["Fighting"],
+        "Ability_name" : ["Guts", "No-guard", "Steadfast"],
+        "Base_experience" : 253
+    },
+
+    {
+        "Name" : "Bellsprout",
+        "Picture" : "https://img.pokemondb.net/artwork/large/bellsprout.jpg",
+        "Types_name": ["Grass", "Poison"],
+        "Ability_name" : ["Chlorophyll", "Gluttony"],
+        "Base_experience" : 60
+    },
+    {
+        "Name" : "Weepinbell",
+        "Picture" : "https://img.pokemondb.net/artwork/large/weepinbell.jpg",
+        "Types_name": ["Grass", "Poison"],
+        "Ability_name" : ["Chlorophyll", "Gluttony"],
+        "Base_experience" : 137
+    },
+
+    {
+        "Name" : "Victreebel",
+        "Picture" : "https://img.pokemondb.net/artwork/large/victreebel.jpg",
+        "Types_name": ["Grass", "Poison"],
+        "Ability_name" : ["Chlorophyll", "Gluttony"],
+        "Base_experience" : 221
+    },
+    {
+        "Name" : "Tentacool",
+        "Picture" : "https://img.pokemondb.net/artwork/large/tentacool.jpg",
+        "Types_name": ["Water", "Poison"],
+        "Ability_name" : ["Clear-body", "Liquid-ooze", "Rain-dish"],
+        "Base_experience" : 67
+    },
+    {
+        "Name" : "Tentacruel",
+        "Picture" : "https://img.pokemondb.net/artwork/large/tentacruel.jpg",
+        "Types_name": ["Water", "Poison"],
+        "Ability_name" : ["Clear-body", "Liquid-ooze", "Rain-dish"],
+        "Base_experience" : 180
+    },
+    {
+        "Name" : "Geodude",
+        "Picture" : "https://img.pokemondb.net/artwork/large/geodude.jpg",
+        "Types_name": ["Rock", "Ground"],
+        "Ability_name" : ["Rock-head", "Sturdy", "Sand-veil"],
+        "Base_experience" : 60
+    },
+    {
+        "Name" : "Graveler",
+        "Picture" : "https://img.pokemondb.net/artwork/large/graveler.jpg",
+        "Types_name": ["Rock", "Ground"],
+        "Ability_name" : ["Rock-head", "Sturdy", "Sand-veil"],
+        "Base_experience" : 137
+    },
+    {
+        "Name" : "Golem",
+        "Picture" : "https://img.pokemondb.net/artwork/large/golem.jpg",
+        "Types_name": ["Rock", "Ground"],
+        "Ability_name" : ["Rock-head", "Sturdy", "Sand-veil"],
+        "Base_experience" : 137
+    }
+
+]
+
+// https://pokeapi.co/api/v2/pokemon/77

@@ -11,16 +11,18 @@ Route::get('/user', function (Request $request) {
 
 
 
+
 Route::post('/login', [AuthController::class, 'login']);
 Route::post('/logout', [AuthController::class, 'logout']);
 Route::get('/pokemon', [PokemonController::class, 'index']);
 Route::get ('/pokemon/{id}', [PokemonController::class, 'show']); 
+Route::post('/pokemon', [PokemonController::class, 'store']);
 
 Route::middleware(['auth:sanctum'])->group(function () {
     Route::post('/register', [AuthController::class, 'register']);
-    Route::post('/pokemon', [PokemonController::class, 'store']);
+
     Route::put('/pokemon/{id}', [PokemonController::class, 'update']);
-    Route::delete('/pokemon/{id}', [PokemonController::class, 'destroy']);
+    Route::delete('/pokemon/{id}', [PokemonController::class, 'destroy']);  
 });
 
 
